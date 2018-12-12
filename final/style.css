@@ -8,6 +8,7 @@ html, body {
 
 body {
   background: linear-gradient(0deg, #ffffff 0%, #0fb8ad 51%, #000000 85%);
+  overflow-x: hidden;
 }
 
 .wrapper {
