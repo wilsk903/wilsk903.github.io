@@ -1,0 +1,144 @@
+
+
+.flex {
+	display: flex;
+	width: 100%;
+	margin top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+.caption {
+  height: 100%;
+  width: 40%;
+  min-width: 200px;
+  padding-top: 0%;
+  padding-left: 200px;
+  padding-bottom: 400px;
+  padding-bottom: 0px;
+  background-color: #fff8e4;
+  transform: skew(10deg, 0deg);
+}
+
+
+.yellow {
+	background-color: #f4bd00;
+	width: 30px;
+	height: 100px;
+}
+
+.yellow-1 {
+	background-color: #f4bd00;
+	width: 30px;
+	height: 100px;
+	margin-left: 200px;
+}
+
+.yellow-2 {
+	background-color: #f4bd00;
+	width: 200px;
+	height: 200px;
+	margin-left: 400px;
+}
+
+.blue {
+	background-color: #5ab3ec;
+	width: 200px;
+	height: 200px;
+	margin-left: -200px;
+	margin-top: 200px;
+}
+
+.red {
+	background-color: #f4bd00;
+	width: 200px;
+	height: 200px;
+	margin-left: -200px;
+	margin-top: 400px;
+	opacity: 0.7;
+}
+
+
+.space-around {
+	justify-content: space-around;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 400px;
+	flex-direction: column;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+
+.gray-background {
+	background-color: #fff8e4;
+	width: 800px;
+	height: 1000px;
+}
+
+.center {
+	justify-content: center;
+}
+
+.black {
+	background-color: black;
+	width: 200px;
+	height: 250px;
+	padding-top: 750px;
+	padding-left: 10px;
+	font: normal 18px Futura, Arial black, sans-serif;
+	color: white;
+}
+
+.body {
+    font: normal 40px Futura, Arial black, sans-serif;
+    margin-top: -300px;
+
+}
+
+.h1 {
+    font: normal 14px Futura, Arial black, sans-serif;
+    margin-top: -150px;
+    padding-left: 60px;
+
+}
+
+ .line {
+	width: 200px;
+	height: 47px;
+	padding-top: 730px;
+	border-bottom: 1px solid white;
+	position: absolute;
+}
+
+ .line-1 {
+	width: 200px;
+	height: 47px;
+	padding-top: 780px;
+	border-bottom: 1px solid white;
+	position: absolute;
+}
+
+ .line-2 {
+	width: 200px;
+	height: 47px;
+	padding-top: 830px;
+	border-bottom: 1px solid white;
+	position: absolute;
+}
+
+

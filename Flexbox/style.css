@@ -1,0 +1,44 @@
+div{
+	border: 5px dotted black;
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+	margin top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.red, .yellow, .blue {
+	width: 100px;
+	height: 100px;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 800px;
+	flex-direction: column;
+}
+

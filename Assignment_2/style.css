@@ -1,0 +1,10 @@
+body {
+	background-color: 000000;
+	colour: white;
+}
+
+.red-rectangle {
+	background-color: red;
+	width: 500px;
+	height: 500px;
+}

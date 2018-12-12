@@ -1,0 +1,103 @@
+.sun-wrapper {
+  height: 600px;
+  width: 600px;
+  overflow: hidden;
+  transition: background 10s ease-in-out;
+  background-color: lightblue;
+}
+
+.sun-wrapper:hover {
+  background-color: #ff2b0f;
+}
+
+.sun-wrapper:hover .sun {
+  background-color: #f09b8e;
+  transform: translateY(600px);
+}
+
+.moon-wrapper {
+  height: 600px;
+  width: 600px;
+  overflow: hidden;
+  animation-name: moonsky;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  margin-bottom: 50px;
+}
+
+.moon {
+  height: 100px;
+  width: 100px;
+  animation-name: normcloud;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.moon-1 {
+  height: 100px;
+  width: 100px;
+  animation-name: slowcloud;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+.moon-2 {
+  height: 100px;
+  width: 100px;
+  animation-name: fastcloud;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+
+@keyframes normcloud {
+  from {
+    transform: translateX(-600px);
+  }
+
+  to {
+    transform: translateX(600px);
+  }
+}
+
+@keyframes slowcloud {
+  from {
+    transform: translateX(-100px);
+  }
+
+  to {
+    transform: translateX(600px);
+  }
+}
+
+@keyframes fastcloud {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(600px);
+  }
+}
+
+@keyframes moonsky {
+  0% {
+    background-color: #02174a;
+  }
+
+  50% {
+    background-color: #f09b8e;
+  }
+
+  100% {
+    background-color: lightblue;
+  }
+}

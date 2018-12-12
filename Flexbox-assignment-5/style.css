@@ -1,0 +1,156 @@
+
+
+.flex {
+	display: flex;
+	width: 100%;
+	margin top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+
+.space-around {
+	justify-content: space-around;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 1000px;
+	flex-direction: column;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+
+.gray-background {
+	background-color: #f4bd00;
+	width: 800px;
+	height: 1000px;
+}
+
+.center {
+	justify-content: center;
+}
+
+
+.body {
+    font: normal 50px Futura, Arial black, sans-serif;
+    margin-top: -700px;
+
+}
+
+.h1 {
+    font: normal 14px Futura, Arial black, sans-serif;
+    margin-top: -170px;
+}
+
+.h2 {
+    font: normal 14px Futura, Arial black, sans-serif;
+    margin-top: 170px;
+}
+
+.title {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    color: white;
+}
+.title-1 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-2 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-3 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-4 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-5 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-6 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-7 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-8 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-9 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-10 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+.title-11 {
+    font: normal 1330px Futura, Arial black, sans-serif;
+    opacity: 0.1;
+    margin-top: -400px;
+    margin-left: -900px;
+    color: white;
+}
+
+ .line {
+    width: 600px;
+    height: -280px;
+    padding-top: 0px;
+    border-bottom: 106px solid #5ab3ec;
+    position: absolute;
+    margin-left:200px;
+}
+
+

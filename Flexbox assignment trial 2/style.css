@@ -1,0 +1,48 @@
+.parent {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+
+.child {
+  min-height: 20px;
+  padding: 15px;
+  transform: skewY(-30deg);
+  transition: all 0.2s ease;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.child:hover {
+  height: calc(100% - 40px);
+}
+
+.child:hover~.child {
+  height: 20px;
+}
+
+.child__inner {
+  transform: skewY(30deg);
+  color: #fff;
+}
+
+.child--top {
+  background: tomato;
+  height: calc(50% - 20px);
+  margin-top: calc((150px / 1.73)* -1);
+  padding-top: calc((150px / 1.73) * 2);
+}
+
+.child--middle {
+  background: DeepSkyBlue;
+}
+
+.child--bottom {
+  background: MediumSeaGreen;
+  height: calc(50% - 20px);
+  margin-bottom: calc((150px / 1.73)* -1);
+  padding-bottom: calc((150px / 1.73) * 2);
+}

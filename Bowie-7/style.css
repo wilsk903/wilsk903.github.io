@@ -1,0 +1,241 @@
+.flex {
+	display: flex;
+	width: 100%;
+	margin top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.flex-vertical {
+	display: flex;
+	height: 400px;
+	flex-direction: column;
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.white-background {
+	background-color: #f4f8ff;
+	width: 800px;
+	height: 1000px;
+}
+
+.center {
+	justify-content: center;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.body {
+    font: normal 40px Futura, Arial black, sans-serif;
+    margin-top: -300px;
+
+}
+
+h1 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 200px;
+	height: 1000px;
+	transform: rotate(10deg);
+	margin-left: 240px;
+	margin-top: 60px;
+	position: absolute;
+}
+
+h2 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 300px;
+	height: 1000px;
+	margin-top: 100px;
+	margin-left: 200px;
+	transform: rotate(40deg);
+	position: absolute;
+}
+
+h3 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 300px;
+	height: 1000px;
+	margin-top: 150px;
+	transform: rotate(-15deg);
+	margin-left: 200px;
+	position: absolute;
+}
+
+h4 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 320px;
+	height: 1000px;
+	margin-top: 175px;
+	margin-left: 300px;
+	transform: rotate(-25deg);
+	position: absolute;
+}
+
+h5 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 300px;
+	height: 1000px;
+	transform: rotate(29deg);
+	margin-top: 180px;
+	margin-left: 200px;
+	position: absolute;
+}
+
+h6 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 300px;
+	height: 1000px;
+	transform: rotate(-5deg);
+	margin-top: 300px;
+	margin-left: 270px;
+	position: absolute;
+}
+
+.h7 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 300px;
+	height: 1000px;
+	transform: rotate(25deg);
+	margin-top: 250px;
+	margin-left: 300px;
+	position: absolute;
+}
+
+.h8 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 300px;
+	height: 1000px;
+	transform: rotate(-37deg);
+	margin-top: 220px;
+	margin-left: 320px;
+	position: absolute;
+}
+
+.h9 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 380px;
+	height: 1000px;
+	transform: rotate(18deg);
+	margin-top: 320px;
+	margin-left: 230px;
+	position: absolute;
+}
+
+.h10 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 380px;
+	height: 1000px;
+	transform: rotate(-18deg);
+	margin-top: 400px;
+	margin-left: 290px;
+	position: absolute;
+}
+
+.h11 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 380px;
+	height: 1000px;
+	transform: rotate(20deg);
+	margin-top: 530px;
+	margin-left: 270px;
+	position: absolute;
+}
+
+.h12 {
+	font-family: futura;
+	color: #4286f4;
+	font-size: 30px;
+	width: 380px;
+	height: 1000px;
+	margin-top: 700px;
+	margin-left: 220px;
+	position: absolute;
+}
+
+p {
+	width: 200px;
+	z-index: 100;
+}
+
+img {
+	width: 600px;
+	position: absolute;
+	top: 25px;
+	transform: translate(500px, 30px);
+}
+
+.text {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.red-text {
+	color: red;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.arrow {
+	color: red;
+	font-family: futura;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+.circle {
+	background-color: white;
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	border: 3px solid white;
+	margin-top: -110px;
+	margin-left: 690px;
+}
+
+

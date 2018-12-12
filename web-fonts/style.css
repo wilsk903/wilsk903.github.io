@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "lack";
+    src: url("fonts/Lack-Line-Regular.woff2") format("woff2");
+}
+
+h1 {
+	font-family: "lack";
+	position: fixed;
+}
+
+p {
+	width: 200px;
+	z-index: 100;
+}
+
+img {
+	width: 600px;
+	position: absolute;
+	top: 25px;
+	transform: translate(500px, 30px);
+}
+
+.text {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
