@@ -31,14 +31,3 @@ function unhover(element) {
 }
 
 
-  //===============SECTION DIVIDERS===============//
-
-    inView('#section-1')
-    .on('enter', el => {
-      el.className = 'active';
-    })
-    .on('exit', el => {
-      el.className = '';
-    })
-
-

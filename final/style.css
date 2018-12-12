@@ -1,21 +1,29 @@
 html, body {
   margin: 0px;
-  height: 20000px;
+  height: 18500px;
   width: 100%;
   padding-top: 300px;
-  font-family: Futura;
+  font-family: 'Cantarell', sans-serif;
 }
 
 body {
-  background: linear-gradient(0deg, #ffffff 0%, #0fb8ad 51%, #000000 85%);
+  background: linear-gradient(0deg, 
+    #2f7d66 0%,
+    #ffedd4 10%,
+    #ffedd4 20%, 
+    #11102e 30%,
+    #0c0a3e 37%,
+    #262943 57%,
+    #d4dcff 65%, 
+    #f5fcff 73%, 
+    #f5fcff 80%, 
+    white 100%);
   overflow-x: hidden;
 }
 
 .wrapper {
   transition: background .2s ease;
   width: 100vw;
-  /*s
-  height: 20000px;*/
 }
 
 #firstillustration {
@@ -33,6 +41,7 @@ body {
   height: 100%;
   position: fixed;
   z-index: -1;
+  will-change: transform;
 }
 
 #firstillustration, .layer {
@@ -40,21 +49,600 @@ body {
   min-width: 100%;
 }
 
+
+
+/************* TOOLTIPS ******************/
+.tip0 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+  font-size: 50px;
+  color: #d2c4e3;
+
+}
+.tip0 span {
+  display: none;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -350px;
+  width: 100%;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.tip0:hover span {
+  display: inline-flex;
+}
+
+.tip1 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip1 span {
+  display: none;
+  position: absolute;
+  margin-top: -23px;
+  margin-left: -50px;
+  width: 100%;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip1:hover span {
+  display: inline-flex;
+}
+
+.tip2 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip2 span {
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -140px;
+  width: 100%;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip2:hover span {
+  display: inline-flex;
+}
+
+
+.tip3 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip3 span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -105px;
+  width: 100%;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip3:hover span {
+  display: inline-flex;
+}
+
+.tip4 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip4 span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -125px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip4:hover span {
+  display: inline-flex;
+}
+
+.tip5 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip5 span {
+  display: none;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -20px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip5:hover span {
+  display: inline-flex;
+}
+
+.sky {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.sky span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -20px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sky:hover span {
+  display: inline-flex;
+}
+
+.tip6 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip6 span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -145px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip6:hover span {
+  display: inline-flex;
+}
+
+.tip65 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip65 span {
+  display: none;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: -70px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip65:hover span {
+  display: inline-flex;
+}
+
+.tip7 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip7 span {
+  display: none;
+  position: absolute;
+  margin-top: -23px;
+  margin-left: -30px;
+  width: 100px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip7:hover span {
+  display: inline-flex;
+}
+
+.tip8 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip8 span {
+  display: none;
+  position: absolute;
+  margin-top: 37px;
+  margin-left: -50px;
+  width: 100%;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip8:hover span {
+  display: inline-flex;
+}
+
+.tip9 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip9 span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -30px;
+  width: 100%;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip9:hover span {
+  display: inline-flex;
+}
+
+.tip10 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip10 span {
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -100px;
+  width: 100px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip10:hover span {
+  display: inline-flex;
+}
+
+.tip11 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip11 span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -50px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip11:hover span {
+  display: inline-flex;
+}
+
+.tip12 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip12 span {
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -110px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip12:hover span {
+  display: inline-flex;
+}
+
+.tip13 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip13 span {
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -130px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip13:hover span {
+  display: inline-flex;
+}
+
+.tip14 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip14 span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -25px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip14:hover span {
+  display: inline-flex;
+}
+
+.tip15 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip15 span {
+  display: none;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -65px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip15:hover span {
+  display: inline-flex;
+}
+
+.tip16 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip16 span {
+  display: none;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -27px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip16:hover span {
+  display: inline-flex;
+}
+
+.tip17 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip17 span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -34px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip17:hover span {
+  display: inline-flex;
+}
+
+.tip18 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip18 span {
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -110px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip18:hover span {
+  display: inline-flex;
+}
+
+.tip19 {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.tip19 span {
+  display: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -110px;
+  width: 200px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tip19:hover span {
+  display: inline-flex;
+}
+/*////////////HOVER TEXT JAPANESE ////////////*/
+
+
+
+
 h1 {
   text-align: center;
   margin-top: -600px;
-  color: black;
+  color: #555ba3;
   font-size: 50px;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
 p {
   text-align: center;
-  color: black;
-  font-size: 12px;
-}
-
-mark {
-  background-color: white;
+  font-size: 14px;
 }
 
 .open {
@@ -67,16 +655,18 @@ mark {
   width: 100%;
   margin-top: 2300px;
   text-align: right;
-  margin-left: -200px;
+  margin-left: -350px;
   background-size: contain;
+  color:#555ba3;
 }
 
 .textbreak2 {
   width: 100%;
   margin-top: 1320px;
   text-align: right;
-  margin-left: 200px;
+  margin-left: 300px;
   background-size: contain;
+  color:#555ba3;
 }
 
 .textbreak3 {
@@ -84,42 +674,82 @@ mark {
   margin-top: 1450px;
   text-align: left;
   background-size: contain;
+  color:#555ba3;
 }
 
 .textbreak4 {
   width: 100%;
-  margin-top: 1600px;
+  margin-top: 1100px;
   text-align: right;
   margin-left: -300px;
   background-size: contain;
+  color:#555ba3;
 }
 
 .textbreak5 {
   width: 100%;
-  margin-top: 1320px;
+  margin-top: 1600px;
   background-size: contain;
+  color:#c5d4ff;
 }
 
 .textbreak6 {
   width: 100%;
-  margin-top: 1500px;
+  margin-top: 1300px;
   background-size: contain;
   text-align: right;
   margin-left: -300px;
+  color: white;
 }
 
 .textbreak7 {
   width: 100%;
-  margin-top: 600px;
+  margin-top: 500px;
   background-size: contain;
   text-align: right;
   margin-left: 300px;
+  color: white;
 }
 
 .textbreak8 {
   width: 100%;
-  margin-top: 800px;
+  margin-top: 400px;
   background-size: contain;
+  color: white;
+}
+
+.textbreak9 {
+  width: 100%;
+  margin-top: 2000px;
+  background-size: contain;
+  color: white;
+}
+
+.textbreak10 {
+  width: 100%;
+  margin-top: 4850px;
+  background-size: contain;
+  color: #1f5948;
+  text-align: left;
+  margin-left: -300px;
+
+}
+
+.textbreak11 {
+  width: 100%;
+  margin-top: 500px;
+  background-size: contain;
+  color: #1f5948;
+  text-align: right;
+  margin-left: 300px;
+}
+
+.textbreak12 {
+  width: 100%;
+  margin-top: 2300px;
+  background-size: contain;
+  color: #ffe08e;
+  text-align: center;
 }
 
 .grandma {
@@ -239,22 +869,13 @@ mark {
 .face {
   background-image: url("face.png");
   background-size: contain;
-  margin-top: -9200px;  
+  margin-top: -8800px;
 }
 
 .eyes {
   background-image: url("eyes.png");
   background-size: contain;
-  margin-top: -7600px;  
-}
-
-.fall {
-  background-image: url("fall.png");
-  background-size: contain;
-  margin-top: -7000px;  
-  position: -webkit-sticky;
-  position: sticky;
-  top: 4rem;
+  margin-top: -7400px;  
 }
 
 @keyframes motto {
@@ -270,32 +891,30 @@ mark {
       position: absolute;
       animation-name: motto;
       animation-duration: 2s;
-      margin-top: -4120px;
+      margin-top: -5800px;
       animation-fill-mode: forwards;
       text-align: center;
-      margin-left:475px;
-      opacity: 0.5;
+      margin-left: 300px;
+      opacity: 0.1;
     }
     .motto h1 {
       margin: 0;
-      font-size: 30px;
-      opacity: .5;
+      font-size: 50px;
+      opacity: 1;
       text-align: center;
       color: white;
       }
 
     .motto:hover {
-      opacity: 1.0;
+      opacity: 1;
     }
 
-.fallspace {
-  display; flex
-  width: 1000px;
-  height: 1000px;
-  position: relative;
-  color: black;
-  margin-top: px;
-  align-items: flex-start;
+
+.fall {
+  background-image: url("fall.png");
+  background-size: contain;
+  margin-top: -14600px;
+  
 }
 
 .my-img {
@@ -304,5 +923,36 @@ mark {
 
 .space {
   width: 1000px;
-  height: 800px;
+  height: 1000px;
+  background-size: contain;
+}
+
+.land {
+  background-image: url("land.png");
+  background-size: cover;
+  margin-top: -12400px;
+}
+
+.house {
+  background-image: url("house.png");
+  background-size: cover;
+  margin-top: -10600px;
+}
+
+.bush {
+  background-image: url("bush.png");
+  background-size: cover;
+  margin-top: -7900px;
+}
+
+.green {
+  background-image: url("green.png");
+  background-size: cover;
+  margin-top: -10600px;
+}
+
+.green1 {
+  background-image: url("green.png");
+  background-size: cover;
+  margin-top: -8000px;
 }
