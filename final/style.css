@@ -626,6 +626,33 @@ body {
 .tip19:hover span {
   display: inline-flex;
 }
+
+.deserve {
+  border-bottom: 1px dotted [template("base font color")];
+  position: relative;
+  cursor: help;
+  text-decoration: dotted underline;
+  color: inherit;
+  margin-top: 50px;
+  overflow: visible;
+
+}
+.deserve span {
+  display: none;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -180px;
+  width: 800px;
+  border: 1px solid [template("base font color")];
+  overflow: auto; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.deserve:hover span {
+  display: inline-flex;
+}
+
 /*////////////HOVER TEXT JAPANESE ////////////*/
 
 
@@ -890,12 +917,16 @@ p {
     .motto {
       position: absolute;
       animation-name: motto;
-      animation-duration: 2s;
+      animation-duration: 5s;
       margin-top: -5800px;
       animation-fill-mode: forwards;
       text-align: center;
       margin-left: 300px;
       opacity: 0.1;
+      transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
     }
     .motto h1 {
       margin: 0;
